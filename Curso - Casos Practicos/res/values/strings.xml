@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lblTitulo">Curso - Casos Prácticos</string>
+    <string name="app_name">Curso - Casos Practicos</string>
+    <string name="lblInfo">Seleccione el tema del caso práctico que desea ver</string>
+    <string name="btnGo">Ir al tema </string>
+    <string-array name="casos_array">
+        <item>Tema 1 y 2</item>
+        <item>Tema 4</item>
+        <item>Tema 5</item>
+        <item>Tema 6</item>
+        <item>Tema 7</item>
+        <item>Tema 8</item>
+    </string-array>    
+    <string name="caso1hello">Caso práctico -Tema 1 y 2</string>
+    <string name="caso2hello">Caso práctico -Tema 4</string>
+    <string name="caso2dst">Distancia Recorrida: </string>
+    
+    <string name="caso3hello">Caso práctico -Tema 5</string>
+    <string name="caso3titulo">Ingreso de Usuario</string>
+    <string name="caso3lblNombre">Nombre:</string>
+    <string name="caso3hintNombre">Ingrese su nombre</string>
+    <string name="caso3lblApellido">Apellido:</string>
+    <string name="caso3hintApellido">Ingrese su apellido</string>
+    <string name="caso3lblCelular">Celular:</string>
+    <string name="caso3hintCelular">Ingrese su celular</string>
+    <string name="caso3btnCancelar">Cancelar</string>
+    <string name="caso3btnAceptar">Aceptar</string>
+    
+</resources>
