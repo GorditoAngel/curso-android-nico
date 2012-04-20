@@ -14,6 +14,8 @@
         <item>Tema 8</item>
     </string-array>    
     <string name="caso1hello">Caso práctico -Tema 1 y 2</string>
+    
+    <string name="caso2info">Pise y arrastre en la pantalla</string>
     <string name="caso2hello">Caso práctico -Tema 4</string>
     <string name="caso2dst">Distancia Recorrida: </string>
     
@@ -27,5 +29,16 @@
     <string name="caso3hintCelular">Ingrese su celular</string>
     <string name="caso3btnCancelar">Cancelar</string>
     <string name="caso3btnAceptar">Aceptar</string>
+    
+    
+    <string name="caso4titulo">Caso Práctico - Controles Básicos</string>
+    <string name="caso4seleccione">Seleccione el idioma: </string>
+    <string name="caso4seleccionado">Idioma seleccionado: </string>
+    <string name="caso4idioma_en">Ingles</string>
+    <string name="caso4idioma_es">Español</string>
+    <string name="caso4idioma_po">Portugués</string>
+    <string name="caso4idioma_ge">Aleman</string>
+    <string name="caso4idioma_it">Italiano</string>
+    
     
 </resources>

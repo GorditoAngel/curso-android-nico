@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caso4titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/lblSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caso4seleccione"
+        android:layout_below="@+id/lblTitulo" />
+	<RadioGroup
+		android:id="@+id/grupo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/lblSeleccion" >
+		<RadioButton
+			android:id="@+id/radio1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/caso4idioma_en" />
+		<RadioButton
+			android:id="@+id/radio2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/caso4idioma_es" />
+		<RadioButton
+			android:id="@+id/radio4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/caso4idioma_po" />
+		<RadioButton
+			android:id="@+id/radio5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/caso4idioma_ge" />
+		<RadioButton
+			android:id="@+id/radio6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/caso4idioma_it" />
+	</RadioGroup>    
+	<TextView
+        android:id="@+id/lblSeleccionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caso4seleccionado"
+        android:layout_below="@+id/grupo" />
+	<TextView
+        android:id="@+id/lblIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toRightOf="@+id/lblSeleccionado"
+        android:layout_alignBaseline="@+id/lblSeleccionado"
+        android:paddingLeft="5dp"
+		/>
+
+	    
+</RelativeLayout>
