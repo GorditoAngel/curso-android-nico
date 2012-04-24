@@ -28,7 +28,7 @@ public class Caso5MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> parent, 
 			android.view.View v, int position, long id) {
 				TextView txtSelGrid = (TextView)findViewById(R.id.txtSelectGrid);
-				txtSelGrid.setText("Último seleccionado: " + parent.getItemAtPosition(position).toString());
+				txtSelGrid.setText(getString(R.string.caso5ultimo_seleccionado) +" " + parent.getItemAtPosition(position).toString());
 			}
 		};
 		gridView.setOnItemClickListener(eventoGrid);
@@ -38,7 +38,7 @@ public class Caso5MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> parent, 
 			android.view.View v, int position, long id) {
 				TextView txtSelGrid = (TextView)findViewById(R.id.txtSelectList);
-				txtSelGrid.setText("Último seleccionado: " + parent.getItemAtPosition(position).toString());
+				txtSelGrid.setText(getString(R.string.caso5ultimo_seleccionado) +" "+ parent.getItemAtPosition(position).toString());
 			}
 		};
 		listView.setOnItemClickListener(eventoList);

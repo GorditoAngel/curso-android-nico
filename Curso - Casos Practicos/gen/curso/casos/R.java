@@ -88,6 +88,7 @@ public final class R {
         public static final int caso5selectGrid=0x7f04001c;
         public static final int caso5selectList=0x7f04001b;
         public static final int caso5spinner=0x7f04001a;
+        public static final int caso5ultimo_seleccionado=0x7f04001d;
         public static final int lblInfo=0x7f040002;
         public static final int lblTitulo=0x7f040000;
     }

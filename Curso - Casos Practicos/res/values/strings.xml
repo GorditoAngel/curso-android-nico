@@ -55,4 +55,6 @@
     <string name="caso5spinner">El Spinner esta en la actividad que selecciona los temas</string>
     <string name="caso5selectList">Seleccione un elemento de la lista</string>
     <string name="caso5selectGrid">Seleccione un elemento de la grid</string>
+    <string name="caso5ultimo_seleccionado">Último Seleccionado: </string>
+    
 </resources>
