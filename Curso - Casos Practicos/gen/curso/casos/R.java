@@ -9,6 +9,8 @@ package curso.casos;
 
 public final class R {
     public static final class array {
+        public static final int caso5opc1=0x7f050001;
+        public static final int caso5opc2=0x7f050002;
         public static final int casos_array=0x7f050000;
     }
     public static final class attr {
@@ -20,7 +22,8 @@ public final class R {
     public static final class id {
         public static final int btnAceptar=0x7f06000b;
         public static final int btnCancelar=0x7f06000a;
-        public static final int button1=0x7f060018;
+        public static final int button1=0x7f06001d;
+        public static final int gridView=0x7f060019;
         public static final int grupo=0x7f06000e;
         public static final int imageView1=0x7f060000;
         public static final int info=0x7f060001;
@@ -31,18 +34,22 @@ public final class R {
         public static final int lblSeleccion=0x7f06000d;
         public static final int lblSeleccionado=0x7f060014;
         public static final int lblTitulo=0x7f06000c;
+        public static final int listView=0x7f060017;
         public static final int pos=0x7f060002;
         public static final int radio1=0x7f06000f;
         public static final int radio2=0x7f060010;
         public static final int radio4=0x7f060011;
         public static final int radio5=0x7f060012;
         public static final int radio6=0x7f060013;
-        public static final int spinner1=0x7f060017;
-        public static final int textView1=0x7f060016;
+        public static final int spinner1=0x7f06001c;
+        public static final int textView1=0x7f06001b;
         public static final int txtApellido=0x7f060007;
         public static final int txtCelular=0x7f060009;
         public static final int txtDist=0x7f060003;
         public static final int txtNombre=0x7f060005;
+        public static final int txtSelectGrid=0x7f06001a;
+        public static final int txtSelectList=0x7f060018;
+        public static final int txtSpinner=0x7f060016;
     }
     public static final class layout {
         public static final int caso1main=0x7f030000;
@@ -50,7 +57,8 @@ public final class R {
         public static final int caso2result=0x7f030002;
         public static final int caso3main=0x7f030003;
         public static final int caso4main=0x7f030004;
-        public static final int main=0x7f030005;
+        public static final int caso5main=0x7f030005;
+        public static final int main=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
@@ -77,6 +85,9 @@ public final class R {
         public static final int caso4seleccionado=0x7f040014;
         public static final int caso4seleccione=0x7f040013;
         public static final int caso4titulo=0x7f040012;
+        public static final int caso5selectGrid=0x7f04001c;
+        public static final int caso5selectList=0x7f04001b;
+        public static final int caso5spinner=0x7f04001a;
         public static final int lblInfo=0x7f040002;
         public static final int lblTitulo=0x7f040000;
     }

@@ -19,10 +19,14 @@ public class MainActivity extends Activity {
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 this, R.array.casos_array, android.R.layout.simple_spinner_item);
+        
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        
         spinner.setAdapter(adapter);
+        
         Button btnGo = (Button)findViewById(R.id.button1);
         final MyOnItemSelectedListener eventoSpinner = new MyOnItemSelectedListener();
+        
         eventoSpinner.setButton(btnGo);
         spinner.setOnItemSelectedListener(eventoSpinner);
         
@@ -56,7 +60,13 @@ public class MainActivity extends Activity {
 						MainActivity.this,
 						Caso4MainActivity.class);
  	   				startActivity(intent);
- 	   				break; 	   				
+ 	   				break;
+ 	   			case 4:
+ 	   				intent = new Intent (
+						MainActivity.this,
+						Caso5MainActivity.class);
+ 	   				startActivity(intent);
+ 	   				break;  	   				
  	   			}
  	   			Toast.makeText(MainActivity.this, "Caso " + (eventoSpinner.getSelected()+1), Toast.LENGTH_SHORT).show();
 

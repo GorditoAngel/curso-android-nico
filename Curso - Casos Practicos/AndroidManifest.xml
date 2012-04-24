@@ -23,6 +23,7 @@
         <activity android:name="Caso2ResultActivity"></activity>
         <activity android:name="Caso3MainActivity"></activity>
         <activity android:name="Caso4MainActivity"></activity>
+        <activity android:name="Caso5MainActivity"></activity>
         
     </application>
 
