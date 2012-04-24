@@ -40,5 +40,19 @@
     <string name="caso4idioma_ge">Aleman</string>
     <string name="caso4idioma_it">Italiano</string>
     
-    
+    <string-array name="caso5opc1">
+        <item>Primario</item>
+        <item>Secundario</item>
+        <item>Terceario</item>
+        <item>Otros</item>
+    </string-array> 
+    <string-array name="caso5opc2">
+        <item>Televisor</item>
+        <item>Teléfono Móvil</item>
+        <item>Computadora</item>
+        <item>Tablet PC</item>
+    </string-array>         
+    <string name="caso5spinner">El Spinner esta en la actividad que selecciona los temas</string>
+    <string name="caso5selectList">Seleccione un elemento de la lista</string>
+    <string name="caso5selectGrid">Seleccione un elemento de la grid</string>
 </resources>
