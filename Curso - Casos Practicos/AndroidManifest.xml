@@ -24,6 +24,7 @@
         <activity android:name="Caso3MainActivity"></activity>
         <activity android:name="Caso4MainActivity"></activity>
         <activity android:name="Caso5MainActivity"></activity>
+        <activity android:name="Caso6MainActivity"></activity>
         
     </application>
 

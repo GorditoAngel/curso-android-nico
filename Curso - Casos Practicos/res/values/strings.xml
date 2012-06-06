@@ -57,4 +57,14 @@
     <string name="caso5selectGrid">Seleccione un elemento de la grid</string>
     <string name="caso5ultimo_seleccionado">Último Seleccionado: </string>
     
+    
+    <string name="caso6nombre">Nombre: </string>
+    <string name="caso6apellido1">Apellido 1: </string>
+    <string name="caso6apellido2">Apellido 2: </string>
+    <string name="caso6mostrar">Mostrar</string>
+    <string name="caso6borrar">Borrar</string>
+    <string name="caso6todo">Haga click en Mostrar...</string>
+    
+    
+    
 </resources>

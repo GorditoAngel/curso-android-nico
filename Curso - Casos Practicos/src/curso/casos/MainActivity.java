@@ -67,7 +67,13 @@ public class MainActivity extends Activity {
 						Caso5MainActivity.class);
  	   				startActivity(intent);
  	   				break;  	   				
- 	   			}
+	   			case 5:
+ 	   				intent = new Intent (
+						MainActivity.this,
+						Caso6MainActivity.class);
+ 	   				startActivity(intent);
+ 	   				break;  	   				
+ 	   			} 	   			
  	   			Toast.makeText(MainActivity.this, "Caso " + (eventoSpinner.getSelected()+1), Toast.LENGTH_SHORT).show();
 
  	   		}
